@@ -21,23 +21,23 @@ public class Animal {
         numLimbs = 4;
     }
 
-    public String isMostlyLand(){
+    public boolean isMostlyLand(){
         return isMostlyLand;
     }
     
-    public int isMammal(){
+    public boolean isMammal(){
         return isMammal;
     }
 
-    public boolean getType(){
+    public String getType(){
         return type;
     }
 
-    public String setLimbs(int n){
+    public void setLimbs(int n){
         numLimbs = n;
     }
 
-    public boolean limbs(){
+    public int limbs(){
         return numLimbs;
     }
 }
