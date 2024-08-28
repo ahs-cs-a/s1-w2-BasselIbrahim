@@ -14,6 +14,8 @@ public class BodyOfWater {
     public BodyOfWater(String n, int ad){
         name = n;
         avgDepth = ad;
+        largestDiameter = 100;
+        isSaltWater = false;
     }
 public String getName(){
         return name;
