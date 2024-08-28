@@ -12,7 +12,7 @@ public class BodyOfWaterMain {
         System.out.println(b.isSaltWater());
         System.out.println(b1.getName());
         System.out.println(b1.getAvgDepth());
-        b1.setName("Lake Anza") 
+        b1.setName("Lake Anza");
         System.out.println(b1.getName());
     }
 }
